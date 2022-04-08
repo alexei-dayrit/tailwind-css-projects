@@ -1,4 +1,3 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -9,13 +8,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'main.js',
-    clean: true,
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: 'index.html',
-    }),
-  ],
   module: {
     rules: [
       {

@@ -1,3 +1,25 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.test {
+  color: burlywood;
+  font-size: 50px;
+}
+
+@layer base {
+  h3 {
+    @apply text-4xl;
+  }
+}
+
+.root,
+#root,
+#docs-root {
+  --primary: #367ee9;
+  --secondary: #a0aec0;
+  --accent: #718096;
+  --background: #fff;
+  --main: #0d0106;
+  --header: #2d3748;
+}
