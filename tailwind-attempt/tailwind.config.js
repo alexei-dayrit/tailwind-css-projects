@@ -4,7 +4,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['"PT Sans"', 'sans-serif']
+      sans: ['Roboto', 'sans-serif'],
+      heading: ['Sansita Swashed', 'Georgia']
     },
     extend: {
       colors: {

@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
 
 .test {
   color: burlywood;
@@ -10,10 +13,11 @@
 @layer base {
   h3 {
     @apply text-4xl;
+    @apply font-heading;
   }
 }
 
-.root,
+:root,
 #root,
 #docs-root {
   --primary: #367ee9;
